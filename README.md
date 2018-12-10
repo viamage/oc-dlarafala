@@ -2,7 +2,7 @@
 
 1. Install octobercms
 2. run php artisan october:env
-3. setup you DB credentials in .env
+3. setup your DB credentials in .env
 4. php artisan october:up
 5. php artisan create:plugin Viamage.DlaRafala
 6. php artisan create:model Viamage.DlaRafala ServerRequest
@@ -19,6 +19,22 @@ october:up when done.
 5. components/ - setup html and basic php methods for component, examples in the code
 
 that's it. now create or install theme from octobercms themes and drop component inside in CMS tab.
+
+I used a simple page in my very raw theme, with code like:
+
+```
+layout = "default"
+url = "/request"
+
+[user_server_request]
+==
+{% flash %}<p>{{ message }}</p>{% endflash %}
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+{% component 'user_server_request' %}
+{% framework %}
+```
+
+http://uploads.keios.eu/video/dlarafala.html
 
 https://octobercms.com/docs/themes/development
 
