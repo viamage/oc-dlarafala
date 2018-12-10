@@ -39,3 +39,7 @@ http://uploads.keios.eu/video/dlarafala.html
 https://octobercms.com/docs/themes/development
 
 https://octobercms.com
+
+Not a fan personally, but such cruds can be build even faster with
+
+https://octobercms.com/plugin/rainlab-builder
