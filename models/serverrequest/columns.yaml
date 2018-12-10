@@ -1,0 +1,18 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+    email:
+        label: Email
+    ram_amount:
+        label: RAM
+    cpu_amount:
+        label: CPU
+    vlan:
+        label: VLAN
+    ip_config:
+        label: IP Config

@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Server Request
+
+# Model Form Field configuration
+form: $/viamage/dlarafala/models/serverrequest/fields.yaml
+
+# Model Class name
+modelClass: Viamage\DlaRafala\Models\ServerRequest
+
+# Default redirect location
+defaultRedirect: viamage/dlarafala/serverrequests
+
+# Create page
+create:
+    title: Create Server Request
+    redirect: viamage/dlarafala/serverrequests/update/:id
+    redirectClose: viamage/dlarafala/serverrequests
+
+# Update page
+update:
+    title: Edit Server Request
+    redirect: viamage/dlarafala/serverrequests
+    redirectClose: viamage/dlarafala/serverrequests
+
+# Preview page
+preview:
+    title: Preview Server Request

@@ -1,0 +1,19 @@
+
+<form data-request="onRequestServer">
+    <label for="email">Email</label><br />
+    <input type="email" name="email"/><br />
+    <label for="ram_amount">RAM Amount</label><br />
+    <select name="ram_amount">
+        {% for option in ram_options %}
+            <option value="{{ option }}">{{ option }}</option>
+        {% endfor %}
+    </select><br />
+
+    <label for="cpu_amount">CPU Amount</label><br />
+    <input type="text" name="cpu_amount"/><br />
+    <label for="cpu_amount">VLAN</label><br />
+    <input type="text" name="vlan"/><br />
+    <label for="cpu_amount">IP</label><br />
+    <input type="text" name="ip_config"/><br />
+    <button type="submit">Submit</button><br />
+</form>
